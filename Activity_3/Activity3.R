@@ -83,7 +83,7 @@ tapply(datI$Richness, datI$urbanName, "mean")
 
 ### Chi-Squared Goodness of Fit Test ###
 
-# set up contigency table
+# set up contingency table
 species <- matrix(c(18,8,15,32), ncol=2, byrow = TRUE)
 colnames(species) <- c("Not protected", "Protected")
 rownames(species) <- c("Declining", "Stable/Increase")
@@ -92,7 +92,7 @@ rownames(species) <- c("Declining", "Stable/Increase")
 mosaicplot(species, xlab = "population stauts", ylab = "legal protection",
            main = "Legal protection impacts on populations")
 
-# set up contigency table following null hypothesis
+# set up contingency table following null hypothesis
 species_null <- matrix(c(17,20,16,20), ncol=2, byrow = TRUE)
 colnames(species_null) <- c("Not protected", "Protected")
 rownames(species_null) <- c("Declining", "Stable/Increase")
