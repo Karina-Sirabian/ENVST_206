@@ -87,7 +87,6 @@ mean_loss <- mean(gAll$gdiff)
 
 # Calculate standard deviation percent loss
 std_loss <- sd(gAll$gdiff)
-
 # Maximum deviation percent loss
 max_loss <- max(gAll$gdiff)
 # Find index of max loss
