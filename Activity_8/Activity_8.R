@@ -149,8 +149,3 @@ plot(tukeyT)
 # Calculate means across factor data simultaneously
 tapply(rasterEx_sub$NDVI, rasterEx_sub$landcID, "mean")
 
-
-
-
-
-
